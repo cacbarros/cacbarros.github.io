@@ -15,17 +15,17 @@ Explore abaixo os principais projetos educativos disponíveis:
 ## 📘 Blog Fortec
 ::: {.card}
 Um espaço interativo com conteúdos em Matemática, Física, Termodinâmica, Climatização e muito mais.  
-🔗 [Aceder](https://cacbarros.github.io/blog-fortec/)
+🔗 [Aceder](https://cacbarros.github.io/blog-fortec/){target="_blank"}
 :::
 
 ## 🧾 Notas de Leitura
 ::: {.card}
 Resumos e comentários de obras científicas, técnicas e de formação, organizados tematicamente.  
-🔗 [Aceder](https://cacbarros.github.io/notas-de-leitura/)
+🔗 [Aceder](https://cacbarros.github.io/notas-de-leitura/){target="_blank"}
 :::
 
 ## 🏘️ Blog Imobiliário
 ::: {.card}
 Estudos, artigos e simulações sobre o setor imobiliário: mercado, construção, urbanismo e sustentabilidade.  
-🔗 [Aceder](https://cacbarros.github.io/imobiliario/)
+🔗 [Aceder](https://cacbarros.github.io/imobiliario/){target="_blank"}
 :::
