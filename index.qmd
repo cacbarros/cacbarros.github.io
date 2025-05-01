@@ -1,0 +1,28 @@
+---
+title: "Projetos"
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+---
+
+# 📚 Projetos de C. A. C. Barros
+
+Bem-vindo! Abaixo estão os principais projetos educativos atualmente disponíveis:
+
+---
+
+## 📘 [Blog Fortec](https://cacbarros.github.io/blog-fortec/)
+> Um espaço interativo com conteúdos em Matemática, Física, Termodinâmica, Climatização e muito mais.
+
+---
+
+## 🧾 [Notas de Leitura](https://cacbarros.github.io/notas-de-leitura/)
+> Resumos e comentários de obras científicas, técnicas e de formação, organizados tematicamente.
+
+---
+
+## 🏘️ [Blog Imobiliário](https://cacbarros.github.io/imobiliario/)
+> Estudos, artigos e simulações sobre o setor imobiliário: mercado, construção, urbanismo e sustentabilidade.
+
+---
