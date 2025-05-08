@@ -1,34 +1,140 @@
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-  background-color: #f4f4f9;
-  color: #222;
-  line-height: 1.6;
-  padding: 1rem;
-}
-
-h1, h2 {
-  color: #003366;
-}
-
-a {
-  color: #00509e;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.card {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-left: 5px solid #00509e;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-.card h2 {
-  margin-top: 0;
-}
+/* --------------------------
+   Paleta de Cores Comum
+--------------------------- */
+:root {
+    --dark-bar-color: #2c2f33;
+    --light-text-color: #f8f9fa;
+  }
+  
+  /* --------------------------
+     Corpo da Página (Body)
+  --------------------------- */
+  body {
+    background-color: #e0f7fa !important;
+    font-family: Arial, sans-serif !important;
+    color: #003366 !important;
+    padding: 2rem !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+  }
+  
+  /* --------------------------
+     Área principal de conteúdo
+  --------------------------- */
+  main.content {
+    background-color: #e0f7fa !important;
+    margin-bottom: 0 !important;
+    border-bottom: none !important;
+  }
+  
+  /* --------------------------
+     Título principal (H1)
+  --------------------------- */
+  h1 {
+    color: #006064 !important;
+    border-bottom: 2px solid #004d40 !important;
+    padding-bottom: 0.5rem !important;
+    margin-top: 0 !important;
+  }
+  
+  /* --------------------------
+     Parágrafos
+  --------------------------- */
+  p {
+    font-size: 1.1rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  /* --------------------------
+     Rodapé (Footer geral)
+  --------------------------- */
+  footer.footer {
+    margin-top: 0 !important;
+    padding: 0 !important;
+    border-top: none !important;
+    box-shadow: none !important;
+  }
+  
+  /* --------------------------
+     Barra do Rodapé (.nav-footer)
+  --------------------------- */
+  .nav-footer {
+    background-color: var(--dark-bar-color) !important;
+    color: var(--light-text-color) !important;
+    padding: 0.5rem 1rem !important;
+    border-top: none !important;
+    box-shadow: none !important;
+    font-size: 1rem !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  
+  /* --------------------------
+     Links no Rodapé
+  --------------------------- */
+  .nav-footer a {
+    color: var(--light-text-color) !important;
+    text-decoration: none !important;
+  }
+  
+  .nav-footer a:hover {
+    text-decoration: underline !important;
+  }
+  
+  /* --------------------------
+     Elementos internos do rodapé
+  --------------------------- */
+  .nav-footer-left,
+  .nav-footer-center,
+  .nav-footer-right {
+    flex: 1 !important;
+    text-align: center !important;
+  }
+  
+  /* --------------------------
+     Cartões de Conteúdo
+  --------------------------- */
+  .card {
+    background-color: #ffffff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    margin-bottom: 1.5rem !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+  }
+  
+  .card:hover {
+    transform: scale(1.02) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+  }
+  
+  .card a {
+    font-weight: bold !important;
+    color: #006064 !important;
+    text-decoration: none !important;
+  }
+  
+  .card a:hover {
+    text-decoration: underline !important;
+  }
+  
+  /* --------------------------
+     Barra de Navegação (Topo)
+  --------------------------- */
+  .navbar {
+    background-color: var(--dark-bar-color) !important;
+    color: var(--light-text-color) !important;
+  }
+/* Oculta visualmente o bloco de título */
+#title-block-header {
+    display: none !important;
+  }
+  #quarto-document-content {
+    padding-top: 2rem;
+  }
+  
+  
+  
