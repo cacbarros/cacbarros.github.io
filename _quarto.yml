@@ -10,9 +10,20 @@ website:
       - href: https://github.com/cacbarros
         text: "GitHub"
   page-footer:
-    center: "© 2025 C. A. C. Barros · [GitHub](https://github.com/cacbarros)"
+    border: false
+    background: none
+    center: |
+      <div class="footer-custom">
+        <img src="/quarto-logo.png" alt="Logotipo Quarto" height="24" style="vertical-align:middle; margin-right:8px;" />
+        © <span id="anoAtual"></span> C. A. C. Barros · 
+        <a href="https://quarto.org" target="_blank">Quarto</a> · 
+        <a href="https://github.com/cacbarros/blog-fortec" target="_blank">GitHub</a><br>
+        <small>Atualizado em: <span id="dataModificacao"></span></small>
+      </div>
 
 format:
   html:
-    theme: sandstone
+    theme: flatly
     css: styles.css
+    include-before-body:
+      - text: '<script src="/footer.js"></script>'

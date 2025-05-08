@@ -10,11 +10,11 @@ watermark:
   opacity: 0.1
 format:
   html:
-    theme: sandstone
-    css: styles.css
+   theme: flatly
+   css: styles.css
 ---
 
-# Projetos de C. A. C. Barros
+## Projetos disponiveis 
 
 Explore abaixo os principais projetos educativos disponíveis:
 
@@ -37,3 +37,5 @@ Resumos e comentários de obras científicas, técnicas e de formação, organiz
 Estudos, artigos e simulações sobre o setor imobiliário: mercado, construção, urbanismo e sustentabilidade.  
 🔗 [Aceder](https://cacbarros.github.io/imobiliario/){target="_blank"}
 :::
+
+

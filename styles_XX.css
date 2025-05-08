@@ -2,7 +2,7 @@
    Paleta de Cores Comum
 --------------------------- */
 :root {
-    --dark-bar-color: #2c2f33;
+    --dark-bar-color: #2c2f33; /* Cor escura uniforme para topo e rodapé */
     --light-text-color: #f8f9fa;
   }
   
@@ -10,19 +10,19 @@
      Corpo da Página (Body)
   --------------------------- */
   body {
-    background-color: #e0f7fa !important;
-    font-family: Arial, sans-serif !important;
-    color: #003366 !important;
-    padding: 2rem !important;
-    line-height: 1.6 !important;
-    margin: 0 !important;
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    color: #003366;
+    padding: 2rem;
+    line-height: 1.6;
+    margin: 0;
   }
   
   /* --------------------------
      Área principal de conteúdo
   --------------------------- */
   main.content {
-    background-color: #e0f7fa !important;
+    background-color: #e0f7fa;
     margin-bottom: 0 !important;
     border-bottom: none !important;
   }
@@ -31,19 +31,19 @@
      Título principal (H1)
   --------------------------- */
   h1 {
-    color: #006064 !important;
-    border-bottom: 2px solid #004d40 !important;
-    padding-bottom: 0.5rem !important;
-    margin-top: 0 !important;
+    color: #006064;
+    border-bottom: 2px solid #004d40;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
   }
   
   /* --------------------------
      Parágrafos
   --------------------------- */
   p {
-    font-size: 1.1rem !important;
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   
   /* --------------------------
@@ -65,22 +65,22 @@
     padding: 0.5rem 1rem !important;
     border-top: none !important;
     box-shadow: none !important;
-    font-size: 1rem !important;
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   /* --------------------------
      Links no Rodapé
   --------------------------- */
   .nav-footer a {
-    color: var(--light-text-color) !important;
-    text-decoration: none !important;
+    color: var(--light-text-color);
+    text-decoration: none;
   }
   
   .nav-footer a:hover {
-    text-decoration: underline !important;
+    text-decoration: underline;
   }
   
   /* --------------------------
@@ -89,52 +89,42 @@
   .nav-footer-left,
   .nav-footer-center,
   .nav-footer-right {
-    flex: 1 !important;
-    text-align: center !important;
+    flex: 1;
+    text-align: center;
   }
   
   /* --------------------------
      Cartões de Conteúdo
   --------------------------- */
   .card {
-    background-color: #ffffff !important;
-    border: 1px solid #ccc !important;
-    border-radius: 8px !important;
-    padding: 1rem !important;
-    margin-bottom: 1.5rem !important;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
-    transition: transform 0.2s ease-in-out !important;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
   }
   
   .card:hover {
-    transform: scale(1.02) !important;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   }
   
   .card a {
-    font-weight: bold !important;
-    color: #006064 !important;
-    text-decoration: none !important;
+    font-weight: bold;
+    color: #006064;
+    text-decoration: none;
   }
   
   .card a:hover {
-    text-decoration: underline !important;
+    text-decoration: underline;
   }
-  
   /* --------------------------
-     Barra de Navegação (Topo)
-  --------------------------- */
-  .navbar {
+   Barra de Navegação (Topo)
+--------------------------- */
+.navbar {
     background-color: var(--dark-bar-color) !important;
     color: var(--light-text-color) !important;
   }
-/* Oculta visualmente o bloco de título */
-#title-block-header {
-    display: none !important;
-  }
-  #quarto-document-content {
-    padding-top: 2rem;
-  }
-  
-  
   
